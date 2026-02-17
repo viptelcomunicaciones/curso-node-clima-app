@@ -1,6 +1,7 @@
 import path from 'path';
 import axios from 'axios';
 import fs    from 'fs';
+import '../config/colors.config.js';
 
 export class Busqueda {
     historial = [];

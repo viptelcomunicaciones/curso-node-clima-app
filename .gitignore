@@ -1,2 +1,25 @@
+# Dependencias
 node_modules/
+
+# Variables de entorno (CRÍTICO: nunca subir .env real)
 .env
+
+# Archivos lock innecesarios
+*.lock
+
+# Base de datos local
+DB/database.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
